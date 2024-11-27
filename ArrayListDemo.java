@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 class ArrayListDemo{
     public static void main(String[] args) {
@@ -37,6 +38,10 @@ class ArrayListDemo{
         for(String s : cars){
             System.out.println(cars.indexOf(s)+" : "+s);
         }
-
+        System.out.println("Before sorting: "+cars);
+        Collections.sort(cars);
+        System.out.println("After sorting: "+cars);
+        Collections.sort(cars,Collections.reverseOrder());
+        System.out.println("After sorting in reverse order: "+cars);
     }
 }
