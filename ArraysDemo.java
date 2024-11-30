@@ -1,5 +1,6 @@
 public class ArraysDemo {
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         int [] a;
         char c[] = {'a','b','c','d'};
         System.out.println(c); //IMPORTANT: char array can be print directly without using loops.
