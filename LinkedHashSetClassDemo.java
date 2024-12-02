@@ -1,6 +1,6 @@
 import java.util.LinkedHashSet;
 
-public class LinkedHashSetDemo {
+public class LinkedHashSetClassDemo {
     public static void main(String[] args) {
         LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
         lhs.add(57);
@@ -10,5 +10,6 @@ public class LinkedHashSetDemo {
         lhs.add(890);
         lhs.add(27);
         System.out.println("lhs: "+lhs); //not auto sorted
+        System.out.println("Size = "+lhs.size());
     }
 }
