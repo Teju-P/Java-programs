@@ -1,4 +1,4 @@
-interface Animal{
+interface {
     //Interface can only have abstract methods. Variables in an interface are public, static and final.
     int weight = 200;
     public void sleep(); //No body - abstract methods only - by default public.
