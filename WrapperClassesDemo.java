@@ -8,7 +8,7 @@ public class WrapperClassesDemo {
         Long l = new Long(123456879);
         Float f = new Float(15.7f);
         Double d = new Double("15.7");
-
+        System.out.println("*************"+d.doubleValue());
         System.out.println("bool: "+bool);
         System.out.println("b: "+b);
         System.out.println("s: "+s);
