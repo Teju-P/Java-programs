@@ -4,8 +4,8 @@ import java.sql.*;
 class JDBCDemo{
     public static void main(String args[]) throws Exception{
         String url = "http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=jdbcdemo&table=customers";
-        String username = "Teju";
-        String password = "30052001";
+        String username = "John";
+        String password = "235586";
         String query = "select * from customers";
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conn = DriverManager.getConnection(url, username, password);
