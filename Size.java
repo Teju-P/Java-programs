@@ -33,7 +33,7 @@ public class Size {
         System.out.println("Range of Byte: "+Character.MIN_VALUE+" to "+Character.MAX_VALUE+"\n=====================================\n");   
 
         System.out.println("Boolean datatype:");
-        System.out.println("Boolean: ");
+        System.out.print("Boolean: ");
         System.out.println("Can't find size and range of Boolean datatype. Values are either \"true\" or \"false\"");
     }
 }

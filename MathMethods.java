@@ -8,7 +8,7 @@ public class MathMethods {
         System.out.println(Math.round(4.5));
         System.out.println(Math.ceil(4.1));
         System.out.println(Math.ceil(-4.1));
-        System.out.println(Math.floor(4.9));
+        System.out.println("floor "+Math.floor(4.9));
         System.out.println(Math.floor(-4.9));
         System.out.println(Math.sin(3));
         System.out.println(Math.sinh(3));

@@ -1,4 +1,5 @@
 import java.util.LinkedHashSet;
+import java.util.Collections;
 
 public class LinkedHashSetClassDemo {
     public static void main(String[] args) {
@@ -7,9 +8,11 @@ public class LinkedHashSetClassDemo {
         lhs.add(6);
         lhs.add(860);
         lhs.add(630);
+        lhs.add(6);
         lhs.add(890);
         lhs.add(27);
         System.out.println("lhs: "+lhs); //not auto sorted
         System.out.println("Size = "+lhs.size());
+        Collections.sort(lhs);
     }
 }

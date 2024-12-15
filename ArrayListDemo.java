@@ -43,5 +43,12 @@ class ArrayListDemo{
         System.out.println("After sorting: "+cars);
         Collections.sort(cars,Collections.reverseOrder());
         System.out.println("After sorting in reverse order: "+cars);
+        System.out.println("-----------------------------------------");
+        System.out.println(cars);
+        String sx[] = new String[cars.size()];
+        cars.toArray(sx);
+        for(String m:sx){
+            System.out.print(m+" ");
+        }
     }
 }
