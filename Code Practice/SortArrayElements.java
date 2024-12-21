@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Collections;
 
 public class SortArrayElements {
     public static void main(String[] args) {
@@ -18,6 +19,7 @@ public class SortArrayElements {
             }
         }*/
         Arrays.sort(arr);
+        // USe Arrays.sort(arr, Collections.reverseOrder()); if the array is of type wrapper class.
 
         System.out.println("After sorting: ");
         for(int i:arr){
