@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 public class MaxAndMinCharInString {
     public static void main(String[] args) {
-        String s = "Grass is greener on the other side".toLowerCase();
-        //String s = "AabcaddefghhhA".toLowerCase();
+        //String s = "Grass is greener on the other side".toLowerCase();
+        String s = "AabcaddefghhhA".toLowerCase();
         String sub [] = s.split(" ");
         s = "";
         for(String z:sub){
@@ -26,7 +26,7 @@ public class MaxAndMinCharInString {
         char cNew[] = new char[al.size()];
         int y=0;
         for(char m:al){
-            cNew[y++] = m; 
+            cNew[y++] = m;
         }
         System.out.println("cNew = "+Arrays.toString(cNew));
         char maxChar = cNew[0];
@@ -47,7 +47,7 @@ public class MaxAndMinCharInString {
                 prevMin = count;
                 minChar = cNew[i];
             }
-            System.out.println("Iteration i = "+i+" minChar = "+minChar+" with "+prevMin+" maxChar = "+maxChar+" with "+prevMax+" count = "+count);
+            //System.out.println("Iteration i = "+i+" minChar = "+minChar+" with "+prevMin+" maxChar = "+maxChar+" with "+prevMax+" count = "+count);
             count = 0;
         }
         System.out.println("MaxChar = "+maxChar);

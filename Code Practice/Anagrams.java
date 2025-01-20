@@ -12,7 +12,7 @@ public class Anagrams {
         Arrays.sort(b);
         System.out.println("a = "+Arrays.toString(a));
         System.out.println("b = "+Arrays.toString(b));
-        boolean isEqual = Arrays.equals(a, b);
+        boolean isEqual = Arrays.equals(a, b); //IMPORTANT
         if(isEqual) System.out.println("Anagrams");
         else System.out.println("Not Anagrams");
     }
